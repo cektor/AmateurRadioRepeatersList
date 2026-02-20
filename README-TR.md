@@ -186,10 +186,12 @@ Veri toplama ve gizlilik hakkında detaylı bilgi için [Gizlilik Politikamızı
 ## 🔒 Gizlilik
 
 Gizliliğinizi ciddiye alıyoruz. Bu uygulama:
-- Kişisel bilgi TOPLAMAZ
+- Hiçbir kişisel bilgi TOPLAMAZ
+- Konum verilerini TOPLAMAZ veya İLETMEZ (yalnızca yerel olarak işler)
 - Konum geçmişinizi TAKİP ETMEZ
-- Konum verilerini yalnızca yerel olarak işler
+- Tüm verileri cihazınızda yerel olarak işler
 - Verileri üçüncü taraflarla PAYLAŞMAZ
+- Sunucularımızda kullanıcı verisi SAKLAMAZ
 
 Detaylar için [Gizlilik Politikamızı](PRIVACY_POLICY.md) okuyun.
 

@@ -186,10 +186,12 @@ For detailed information about data collection and privacy, see our [Privacy Pol
 ## 🔒 Privacy
 
 We take your privacy seriously. This app:
-- Does NOT collect personal information
+- Does NOT collect any personal information
+- Does NOT collect or transmit location data (processes locally only)
 - Does NOT track your location history
-- Processes location data locally only
-- Does NOT share data with third parties
+- Processes all data locally on your device
+- Does NOT share any data with third parties
+- Does NOT store user data on our servers
 
 Read our full [Privacy Policy](PRIVACY_POLICY.md) for details.
 

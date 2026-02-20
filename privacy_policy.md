@@ -16,22 +16,24 @@ By using the App, you agree to the collection and use of information in accordan
 
 #### 1. Location Data
 
-**What we collect:**
+**What we process (NOT collect):**
 - GPS coordinates (latitude and longitude)
 - City and region information
 - QTH Locator (Maidenhead grid square)
 
-**Why we collect it:**
+**Why we process it:**
 - To calculate distances between your location and repeater stations
 - To automatically filter repeaters by your current city
 - To generate QTH Locator coordinates for amateur radio operations
 - To provide location-based features and improve user experience
 
 **How we use it:**
-- Location data is processed locally on your device
-- We do NOT store your location data on our servers
-- We do NOT track your movements or location history
-- Location data is only used when the App is active and in use
+- Location data is processed **ONLY on your device**
+- We do **NOT collect or store** your location data on our servers
+- We do **NOT transmit** your location data anywhere
+- We do **NOT track** your movements or location history
+- Location data is used in real-time and immediately discarded
+- No location data leaves your device
 
 **Permissions required:**
 - `ACCESS_FINE_LOCATION` - For precise distance calculations
@@ -105,9 +107,12 @@ We want to be transparent about what we **DO NOT** collect:
 - ❌ Photos, videos, or media files
 - ❌ Microphone or camera access
 - ❌ SMS or call logs
+- ❌ Location data (we process it locally but DO NOT collect it)
 - ❌ Location history or tracking data
 - ❌ Browsing history or search queries
 - ❌ Any personally identifiable information (PII)
+
+**IMPORTANT:** We do NOT collect, store, or transmit ANY user data to our servers. All data processing happens locally on your device.
 
 ### Third-Party Services
 
@@ -137,10 +142,12 @@ We take data security seriously:
 
 ### Data Retention
 
-- **Location Data:** Not retained (processed in real-time only)
-- **Cached Repeater Data:** Stored until you clear app data or uninstall
-- **Favorites:** Stored until you clear app data or uninstall
+- **Location Data:** NOT retained - processed in real-time only and immediately discarded
+- **Cached Repeater Data:** Stored locally until you clear app data or uninstall
+- **Favorites:** Stored locally until you clear app data or uninstall
 - **Notification Tokens:** Deleted when you uninstall the App
+
+**IMPORTANT:** No user data is stored on our servers. Everything is local to your device.
 
 ### Your Rights and Choices
 
@@ -204,22 +211,24 @@ Uygulamayı kullanarak, bu politikaya uygun olarak bilgilerin toplanmasını ve 
 
 #### 1. Konum Verileri
 
-**Ne topluyoruz:**
+**Ne işliyoruz (TOPLAMIYORUZ):**
 - GPS koordinatları (enlem ve boylam)
 - Şehir ve bölge bilgileri
 - QTH Locator (Maidenhead grid karesi)
 
-**Neden topluyoruz:**
+**Neden işliyoruz:**
 - Konumunuz ile röle istasyonları arasındaki mesafeyi hesaplamak için
 - Röleleri bulunduğunuz şehre göre otomatik filtrelemek için
 - Amatör telsiz operasyonları için QTH Locator koordinatları oluşturmak için
 - Konum tabanlı özellikler sağlamak ve kullanıcı deneyimini iyileştirmek için
 
 **Nasıl kullanıyoruz:**
-- Konum verileri cihazınızda yerel olarak işlenir
-- Konum verilerinizi sunucularımızda SAKLAMIYORUZ
-- Hareketlerinizi veya konum geçmişinizi TAKİP ETMİYORUZ
-- Konum verileri yalnızca Uygulama aktif ve kullanımdayken kullanılır
+- Konum verileri **YALNIZCA cihazınızda** işlenir
+- Konum verilerinizi sunucularımızda **TOPLAMIYORUZ veya SAKLAMIYORUZ**
+- Konum verilerinizi hiçbir yere **İLETMİYORUZ**
+- Hareketlerinizi veya konum geçmişinizi **TAKİP ETMİYORUZ**
+- Konum verileri gerçek zamanlı kullanılır ve hemen silinir
+- Hiçbir konum verisi cihazınızdan ayrılmaz
 
 **Gerekli izinler:**
 - `ACCESS_FINE_LOCATION` - Hassas mesafe hesaplamaları için
@@ -293,9 +302,12 @@ Uygulamayı kullanarak, bu politikaya uygun olarak bilgilerin toplanmasını ve 
 - ❌ Fotoğraflar, videolar veya medya dosyaları
 - ❌ Mikrofon veya kamera erişimi
 - ❌ SMS veya arama kayıtları
+- ❌ Konum verileri (yerel olarak işliyoruz ama TOPLAMIYORUZ)
 - ❌ Konum geçmişi veya takip verileri
 - ❌ Tarayıcı geçmişi veya arama sorguları
 - ❌ Herhangi bir kişisel tanımlanabilir bilgi (KTB)
+
+**ÖNEMLİ:** Sunucularımıza HİÇBİR kullanıcı verisi toplamıyor, saklamıyor veya iletmiyoruz. Tüm veri işleme cihazınızda yerel olarak gerçekleşir.
 
 ### Üçüncü Taraf Hizmetler
 
@@ -325,10 +337,12 @@ Veri güvenliğini ciddiye alıyoruz:
 
 ### Veri Saklama
 
-- **Konum Verileri:** Saklanmaz (yalnızca gerçek zamanlı işlenir)
-- **Önbelleğe Alınmış Röle Verileri:** Uygulama verilerini temizleyene veya kaldırana kadar saklanır
-- **Favoriler:** Uygulama verilerini temizleyene veya kaldırana kadar saklanır
+- **Konum Verileri:** Saklanmaz - yalnızca gerçek zamanlı işlenir ve hemen silinir
+- **Önbelleğe Alınmış Röle Verileri:** Uygulama verilerini temizleyene veya kaldırana kadar yerel olarak saklanır
+- **Favoriler:** Uygulama verilerini temizleyene veya kaldırana kadar yerel olarak saklanır
 - **Bildirim Token'ları:** Uygulamayı kaldırdığınızda silinir
+
+**ÖNEMLİ:** Sunucularımızda hiçbir kullanıcı verisi saklanmaz. Her şey cihazınızda yereldir.
 
 ### Haklarınız ve Seçimleriniz
 
